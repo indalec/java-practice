@@ -4,6 +4,9 @@ public class Main {
        /* for(int i = 0; i<=9; i++){
             int x = 1;
             System.out.print(x); */
+/*ask 12:
+repeatItem("cool", 3) ➞ ["cool", "cool", "cool"]*/
+
 
         String item = "cool";
         int times = 3;
