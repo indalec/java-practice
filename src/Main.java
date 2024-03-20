@@ -7,13 +7,14 @@ public class Main {
 
 
         //something -> SoMeThInG
+
         String input = "something";
         StringBuilder output = new StringBuilder();
 
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
             if (i % 2 == 0) {
-                output.append(Character.toUpperCase(c));
+                output.append(Character.toUpperCase(c)); //see the notes
             } else {
                 output.append(Character.toLowerCase(c));
             }
