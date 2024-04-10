@@ -11,9 +11,12 @@ Vowel (aeiou) counter:
 Ali -> 2
 Nancy -> 1*/
 
-        String[] names = new String[2];
+
+
+        String[] names = new String[3];
         names[0] = "Ali";
         names[1] = "Nancy";
+        names[2] = "Indalecio Francisco Valenzuela Aguiló";
         String vowels = "aeiouAEIOU";
 
         for (int i = 0; i < names.length; i++) {
